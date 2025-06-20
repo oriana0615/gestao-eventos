@@ -15,14 +15,14 @@ export default function SobreScreen() {
         <Divider />
         <Card.Content style={styles.content}>
           <Paragraph style={styles.paragraph}>
-            Esta é a versão 2.0 do aplicativo, agora com integração a um backend robusto e funcionalidades nativas.
+            Esta é a versão 1.0 do aplicativo, agora com integração a um backend robusto e funcionalidades nativas.
           </Paragraph>
           <Title style={styles.featuresTitle}>Recursos Utilizados:</Title>
           <Text style={styles.featureItem}>• React Navigation (Drawer, Tabs, Stack)</Text>
           <Text style={styles.featureItem}>• React Native Paper (UI Components)</Text>
           <Text style={styles.featureItem}>• Supabase (Backend e Base de Dados)</Text>
           <Text style={styles.featureItem}>• Supabase Storage (Upload de Imagens)</Text>
-          <Text style={styles.featureItem}>• Expo Barcode Scanner (Leitor de QR Code)</Text>
+          <Text style={styles.featureItem}>• expo-camera (Leitor de QR Code)</Text>
           <Text style={styles.featureItem}>• Expo Image Picker (Seleção de Imagem)</Text>
           <Text style={styles.featureItem}>• Axios (Consumo de API Externa - ViaCEP)</Text>
           <Text style={styles.featureItem}>• React Native Mask Text (Máscaras)</Text>
