@@ -9,8 +9,8 @@ export default function SobreScreen() {
       <Card style={styles.card}>
         <Card.Content style={styles.header}>
           <Avatar.Icon size={64} icon="rocket-launch" style={styles.avatar} />
-          <Title style={styles.title}>App Gestão de Eventos v2</Title>
-          <Paragraph style={styles.subtitle}>Versão 2.0.0</Paragraph>
+          <Title style={styles.title}>App Gestão de Eventos v1</Title>
+          <Paragraph style={styles.subtitle}>Versão 1.0.0</Paragraph>
         </Card.Content>
         <Divider />
         <Card.Content style={styles.content}>
